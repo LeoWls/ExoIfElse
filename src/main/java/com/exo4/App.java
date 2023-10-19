@@ -15,7 +15,7 @@ public class App {
             int salaireAn = clavier.nextInt();
             int tempsAn = clavier.nextInt();
 
-            if (salaireAn >= salaireAnMin && tempsAn >= tempsAnMin){
+            if (salaireAn > salaireAnMin && tempsAn >= tempsAnMin){
             System.out.println("Le prêt est accordé"); 
             }  
             else {
